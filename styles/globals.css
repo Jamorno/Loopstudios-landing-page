@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* body {
+    background-image: url("/mobile/image-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+} */
