@@ -38,11 +38,11 @@ export default function Navbar() {
                         <Image src="/logo.svg" width="200" height="60" alt="logo-image" />
 
                         <div className="text-white xl:text-lg font-bold flex xl:space-x-8 md:space-x-5 md:text-md">
-                            <p className="cursor-pointer hover:text-white">About</p>
-                            <p className="cursor-pointer hover:text-white">Careers</p>
-                            <p className="cursor-pointer hover:text-white">Events</p>
-                            <p className="cursor-pointer hover:text-white">Products</p>
-                            <p className="cursor-pointer hover:text-white">Suport</p>
+                            <p className="cursor-pointer hover:text-gray-300">About</p>
+                            <p className="cursor-pointer hover:text-gray-300">Careers</p>
+                            <p className="cursor-pointer hover:text-gray-300">Events</p>
+                            <p className="cursor-pointer hover:text-gray-300">Products</p>
+                            <p className="cursor-pointer hover:text-gray-300">Suport</p>
                         </div>
                     </div>
 
