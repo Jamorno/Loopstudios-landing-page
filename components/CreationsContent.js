@@ -5,7 +5,7 @@ const josefinSans = Josefin_Sans({ weight: "300", subsets: ['latin'] })
 
 export default function CreationsContent() {
     return (
-        <div className={josefinSans.className}>
+        <main className={josefinSans.className}>
 
             {/* Mobile */}
             <div className="xl:hidden lg:hidden md:hidden">
@@ -87,7 +87,7 @@ export default function CreationsContent() {
                 </div>
 
                 <div className="text-center pt-8 cursor-pointer">
-                    <button className="text-sm font-bold border border-black px-10 py-1.5 tracking-wider">SEE ALL</button>
+                    <button className="text-sm font-bold border border-black px-10 py-1.5 tracking-wider hover:bg-slate-300">SEE ALL</button>
                 </div>
             </div>
 
@@ -96,7 +96,7 @@ export default function CreationsContent() {
 
                 <div className="flex justify-between items-center pt-20 xl:pb-20 lg:pb-10">
                     <h1 className="xl:text-5xl text-center md:text-3xl">OUR CREATIONS</h1>
-                    <button className="text-sm font-bold border border-black px-8 py-1.5 tracking-wider cursor-pointer">SEE ALL</button>
+                    <button className="text-sm font-bold border border-black px-8 py-1.5 tracking-wider cursor-pointer hover:bg-slate-300">SEE ALL</button>
                 </div>
 
                 <div className="flex space-x-5">
@@ -175,6 +175,6 @@ export default function CreationsContent() {
                 </div>
 
             </div>
-        </div>
+        </main>
     )
 }
