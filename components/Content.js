@@ -15,7 +15,7 @@ export default function Content() {
                 <Image className="hidden xl:hidden lg:inline-block lg:col-span-2" src="/desktop/image-interactive.jpg" width="500" height="400" alt="interactive-desktop-image" />
                 <Image className="hidden xl:inline-block xl:col-span-2" src="/desktop/image-interactive.jpg" width="800" height="400" alt="interactive-desktop-image" />
 
-                <div className="xl:bg-white xl:absolute xl:w-6/12 xl:py-16 xl:left-[45rem] xl:top-[22rem] lg:bg-white lg:absolute lg:w-6/12 lg:left-[30rem] lg:top-[14rem]">
+                <heading className="xl:bg-white xl:absolute xl:w-6/12 xl:py-16 xl:left-[45rem] xl:top-[22rem] lg:bg-white lg:absolute lg:w-6/12 lg:left-[30rem] lg:top-[14rem]">
                     <div className={josefinSans.className}>
                         <h2 className="text-3xl text-center pt-8 lg:text-4xl lg:text-start lg:px-20 xl:text-5xl xl:text-start xl:tracking-wider xl:px-24">THE LEADER IN INTERACTIVE VR</h2>
                     </div>
@@ -28,7 +28,7 @@ export default function Content() {
                             to their brand.
                         </p>
                     </div>
-                </div>
+                </heading>
             </div>
         </div>
     )
