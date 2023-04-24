@@ -10,7 +10,7 @@ export default function Navbar() {
 
     return (
         <div className={josefinSans.className}>
-            <nav id="navbar">
+            <nav>
                 <div className={`flex items-center justify-between pt-10 px-6 md:hidden lg:hidden xl:hidden ${navbar ? "hidden" : "block"} xl:px-40`}>
                     <Image src="/logo.svg" width="150" height="60" alt="logo-image" />
                     <Image onClick={() => setNavbar(!navbar)} className="cursor-pointer xl:hidden" src="/icon-hamburger.svg" width="25" height="25" alt="hamburger-menu" />
