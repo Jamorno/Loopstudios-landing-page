@@ -6,7 +6,7 @@ import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <html land="en">
+    <>
       <Head>
         <title>Frontend Mentor | Loopstudios landing page</title>
       </Head>
@@ -24,6 +24,6 @@ export default function Home() {
         {/* Footer */}
         <Footer />
       </div>
-    </html>
+    </>
   )
 }
