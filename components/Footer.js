@@ -11,17 +11,17 @@ const alata = Alata({ weight: "400", subsets: ["latin"] })
 
 export default function Footer() {
     return (
-        <div className={alata.className}>
+        <footer className={alata.className}>
             <div className="pt-20 xl:pt-40">
                 <div className="bg-black text-white text-center pt-10 xl:hidden lg:hidden">
                     <Image className="mx-auto" src="/logo.svg" width="120" height="60" alt="logo-image" />
 
                     <div className="text-sm pt-8 space-y-5">
-                        <p className="cursor-pointer">About</p>
-                        <p className="cursor-pointer">Careers</p>
-                        <p className="cursor-pointer">Events</p>
-                        <p className="cursor-pointer">Products</p>
-                        <p className="cursor-pointer">Support</p>
+                        <p className="cursor-pointer hover:text-gray-500">About</p>
+                        <p className="cursor-pointer hover:text-gray-500">Careers</p>
+                        <p className="cursor-pointer hover:text-gray-500">Events</p>
+                        <p className="cursor-pointer hover:text-gray-500">Products</p>
+                        <p className="cursor-pointer hover:text-gray-500">Support</p>
                     </div>
 
                     <div className="flex items-center justify-center space-x-3 pt-10">
@@ -51,11 +51,11 @@ export default function Footer() {
 
                         <div className="flex items-center justify-between xl:text-md pt-5 pb-14 lg:text-sm">
                             <div className="flex xl:space-x-10 text-gray-300 lg:space-x-5">
-                                <p className="cursor-pointer">About</p>
-                                <p className="cursor-pointer">Careers</p>
-                                <p className="cursor-pointer">Events</p>
-                                <p className="cursor-pointer">Products</p>
-                                <p className="cursor-pointer">Support</p>
+                                <p className="cursor-pointer hover:text-gray-500">About</p>
+                                <p className="cursor-pointer hover:text-gray-500">Careers</p>
+                                <p className="cursor-pointer hover:text-gray-500">Events</p>
+                                <p className="cursor-pointer hover:text-gray-500">Products</p>
+                                <p className="cursor-pointer hover:text-gray-500">Support</p>
                             </div>
 
                             <div className="">
@@ -67,6 +67,6 @@ export default function Footer() {
                 </div>
             </div>
 
-        </div>
+        </footer>
     )
 }
