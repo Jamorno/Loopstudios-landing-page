@@ -9,8 +9,8 @@ const josefinSans = Josefin_Sans({ weight: "300", subsets: ['latin'] })
 
 export default function Content() {
     return (
-
-            <main className="px-6 pt-24 lg:relative lg:grid lg:pt-28 lg:px-20 xl:pt-36 xl:px-32 xl:relative xl:pb-28 xl:grid grid-cols-3">
+        <content>
+            <div className="px-6 pt-24 lg:relative lg:grid lg:pt-28 lg:px-20 xl:pt-36 xl:px-32 xl:relative xl:pb-28 xl:grid grid-cols-3">
                 <Image className="md:mx-auto lg:hidden xl:hidden" src="/mobile/image-interactive.jpg" width="400" height="100" alt="interactive-mobile-image" />
                 <Image className="hidden xl:hidden lg:inline-block lg:col-span-2" src="/desktop/image-interactive.jpg" width="500" height="400" alt="interactive-desktop-image" />
                 <Image className="hidden xl:inline-block xl:col-span-2" src="/desktop/image-interactive.jpg" width="800" height="400" alt="interactive-desktop-image" />
@@ -29,7 +29,7 @@ export default function Content() {
                         </p>
                     </div>
                 </div>
-            </main>
-
+            </div>
+        </content>
     )
 }
